@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNameFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/colorPrimary"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDescriptionFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textColorHint="@color/colorPrimary"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPriceFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:textColorHint="@color/colorPrimary"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDiscountFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Discount"
+            android:textColorHint="@color/colorPrimary"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btnSelect"
+                android:textColor="@android:color/white"
+                android:text="Select"
+                android:layout_margin="8dp"
+                app:buttonColor="@color/colorPrimary"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:cornerRadius="6dp"/>
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btnUpload"
+                android:textColor="@android:color/white"
+                android:text="Upload"
+                android:layout_margin="8dp"
+                app:buttonColor="@android:color/black"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:cornerRadius="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

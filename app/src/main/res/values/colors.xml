@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c62828</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#0277bd</color>
+    <color name="btnSingIn">#263238</color>
+    <color name="colorSlogan">#ffffff</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0e0e</color>
+    <color name="colorPrice">#0277bd</color>
+</resources>
